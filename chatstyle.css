@@ -1,0 +1,176 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+body {
+		margin: 0px;
+	background-image: url("loginn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000099;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.header .tools .settings{
+	width: 11.11%;
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.content .chatbox{
+	background: white;
+	width: 400px;
+	height: 450px;
+	margin-left:0px;
+	margin-top:50px;
+	border-style: ridge;
+}
+
+.content .chatbox .chatwad{
+	border-style: ridge;
+	padding: 5px;
+	background: SlateBlue;
+	color: white;
+}
+
+.content .chatbox .msg{
+	border-style: ridge;
+	height: 200px;
+	overflow: auto;
+	padding: 5px;
+}
+
+.content .chatbox .msgsend{
+	border-style: ridge;
+	padding: 5px;
+	background: #000066;
+}
+
+.content .chatbox .msg .meuser{
+	background-color: #085078;
+	padding:3px;
+	color:white;
+	margin-left: 25px;
+	border-style: ridge;
+	width: 90%;
+	display: inline-block;
+}
+
+.content .chatbox .msg .meuser .time{
+	color:white;
+	margin-left: 238px;	
+	font-size: 10px;
+}
+
+.content .chatbox .msg .meuser .showmsg{
+	color:white;
+}
+
+.content .chatbox .msg .adminuser .time{
+	color:white;
+	margin-left: 238px;	
+	font-size: 10px;
+}
+
+.content .chatbox .msg .adminuser .showmsg{
+	color:white;
+}
+
+
+.content .chatbox .msg .adminuser{
+	background-color: #4cb8c4;
+	padding:3px;
+	color:white;
+	margin-right: 25px;
+	border-style: ridge;
+	width: 90%;
+	display: inline-block;
+}
+
+.content .allsender{
+	background: #348F50;
+	margin-left:470px;
+	margin-top:20px;
+	border-style: ridge;
+	display: inline-block;
+	width: 392px;
+	padding: 5px;
+	color: white;
+}
+
+.content .chatbox1{
+	background: white;
+	width: 400px;
+	height: 450px;
+	margin-left:470px;
+	margin-top:3px;
+	border-style: ridge;
+}
+
+.content .chatbox1 .select{
+	height: 440px;
+	padding: 5px;
+	background-color: #4cb8c4;
+}
+
+.content .chatbox1 .select .selection{
+	margin-left: 70px; 
+}
+
+.content .chatbox1 .select .selection .selectid{
+	margin-top: 10px;
+	padding: 5px;
+	border-style: ridge;
+	display: inline-block;
+	overflow: auto;
+	height: 407px;
+	box-shadow:2px 2px;
+}

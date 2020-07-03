@@ -1,0 +1,61 @@
+body{
+	margin: 0px;
+}
+
+.header{
+	background-color: #0D6B42;
+	overflow: hidden;
+}
+
+.header .left{
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-top: 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.header .right{
+	overflow: hidden;
+	display: inline-block;
+	font-size: 20px;
+	float: left;
+	margin-top: 5px;
+	padding: 10px;
+	margin-left: 800px;
+}
+
+.top .left{
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	margin-top: 100px;
+	padding: 10px;
+	margin-left: 350px;
+	width: 30%;
+	display: inline-block;
+}
+
+.top .right{
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 100px;
+	padding: 10px;
+	width: 30%;	
+	display: inline-block;
+}
+
+.bottom{
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 10px;
+	display: inline-block;
+	margin-left: 550px;
+}

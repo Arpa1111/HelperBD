@@ -1,0 +1,109 @@
+body{
+	margin: 0px;
+	background-image: url("customerBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #d8c0f0;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e5cef2;
+}
+
+
+.cus .left{
+	background: #d8c0f0;
+	width: 650px;
+	height: 570px;
+	margin-left:400px;
+	margin-top: 40px;
+	box-shadow: 4px 4px #454547;
+}
+
+.cus .left .top{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-top: 15px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.cus .left .middle{
+	margin-left: 80px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.cus .left .footer{
+	margin-left: 80px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #9e7bdb;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #d8c0f0;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e5cef2;
+}
+tr:nth-child(odd) {
+  background-color: #e5cef2;
+}

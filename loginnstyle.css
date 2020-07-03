@@ -1,0 +1,88 @@
+body{
+	margin: 0px;
+	background-image: url("loginn.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header{
+	background-color: #0D6B42;
+	overflow: hidden;
+}
+
+.title{
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	float: left;
+	margin-top: 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.login .right{
+	width: 400px;
+	height: 300px;
+	margin-left: 490px;
+	margin-top: 40px;
+}
+
+.login .right .top{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-top: 15px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.login .right .middle{
+	margin-left: 80px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.login .right .footer{
+	margin-left: 80px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.login .right .middle input[type=text], select {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login .right .middle input[type=password], select {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login .right .middle .btnsub{
+	background: none;	
+	background-color: #0D6B42;
+	display: inline-block;
+	cursor: pointer;
+	padding: 3px 7px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	margin-left: 153px;
+	color: #E6E6E6;
+}
+
+.login .right .middle .btnsub:hover{
+	color: white;
+}
